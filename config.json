@@ -1,4 +1,6 @@
 {
   "token" : "ur bot token",
-  "message" : "mass dm message" 
+  "dm_message" : "mass dm message",
+  "prefix" : ".", 
+  "authorised_ids" : ["ur id, split with , for other's ids."]
 }
