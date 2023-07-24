@@ -60,10 +60,11 @@ client.on('messageCreate', message => {
             })
         })
     } else {
-        console.log(cmd)
+        return; 
     }
 })
 
 client.login(token).catch(err => {
     console.log(chalk.red(`error logging into token!\n${err}`))
+    console.log(chalk.blue(`if you need further help, join discord.gg/8mZ2wsJpdz with ur error message to get it fixed immediately.`))
 })
